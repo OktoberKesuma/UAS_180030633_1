@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UAS_180030633_1</string>
+    <string name="id_film">ID film</string>
+    <string name="judul_film">Judul film</string>
+    <string name="tgl_rilis">Tanggal Rilis</string>
+    <string name="gambar">Ilustrasi Gambar</string>
+    <string name="sutradara">Sutradara</string>
+    <string name="sinopsis_film">Sinopsis</string>
+    <string name="tambah">Tambah film</string>
+    <string name="edit">Edit film</string>
+    <string name="hapus">Hapus film</string>
+    <string name="bagikan">Bagikan film</string>
+    <string name="titik_dua">:</string>
+    <string name="simpan">Simpan</string>
+    <string name="data_film">Data Film</string>
+    <string name="pilih_tgl">Pilih</string>
+</resources>

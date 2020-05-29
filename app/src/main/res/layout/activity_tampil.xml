@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2C30"
+    app:cardBackgroundColor="#2B2C30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_film"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/large_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/tgl_rilis"
+            android:textAlignment="viewStart"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/tv_sutradara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/sutradara"
+            android:textAlignment="textStart"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="@dimen/medium_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_film"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:contentDescription="@string/gambar"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_sinopsis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:text="@string/sinopsis_film"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="@dimen/medium_text" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
